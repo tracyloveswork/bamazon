@@ -4,11 +4,6 @@ A command line shopping app using SQL and node.js.
 - bamazonCustomer.js | Contains script to be run with node command line
 - bamazonSchema.sql | Contains the SQL to create and populate the initial database
 - package.jason | node modules to be installed
-Screenshots
-- Initial view of database (https://github.com/tracyloveswork/bamazon/blob/master/screenshots/database_initial.jpg)
-- Updated database after purchases (https://github.com/tracyloveswork/bamazon/blob/master/screenshots/database_updated.jpg)
-- Successful purchase at command line (https://github.com/tracyloveswork/bamazon/blob/master/screenshots/bamazon_successfulPurchase.jpg)
-- Quantity not available at command line (https://github.com/tracyloveswork/bamazon/blob/master/screenshots/bamazon_quantityNotAvailable.jpg)
 
 # Customer View
 node bamazonCustomer.js
@@ -20,3 +15,12 @@ node bamazonCustomer.js
 - If the quantity requested is greater than the stock available, the user will get a message stating the transaction cannot be completed.
 - The user is again prompted if they would like to see the product list.
 
+# Screenshots
+- Initial view of database 
+![Image of Initial State of Database](https://github.com/tracyloveswork/bamazon/blob/master/screenshots/database_initial.jpg)
+- Updated database after purchases 
+![Image of Updated State of Database](https://github.com/tracyloveswork/bamazon/blob/master/screenshots/database_updated.jpg)
+- Successful purchase at command line 
+![Image of Successful Purchase](https://github.com/tracyloveswork/bamazon/blob/master/screenshots/bamazon_successfulPurchase.jpg)
+- Quantity not available at command line 
+![Image of Quantity Not Available](https://github.com/tracyloveswork/bamazon/blob/master/screenshots/bamazon_quantityNotAvailable.jpg)

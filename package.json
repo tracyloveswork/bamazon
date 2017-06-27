@@ -1,0 +1,27 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "SQL and Node.js homework",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tracyloveswork/bamazon.git"
+  },
+  "keywords": [
+    "sql",
+    "node"
+  ],
+  "author": "Tracy K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tracyloveswork/bamazon/issues"
+  },
+  "homepage": "https://github.com/tracyloveswork/bamazon#readme",
+  "dependencies": {
+    "inquirer": "^3.1.1",
+    "mysql": "^2.13.0"
+  }
+}

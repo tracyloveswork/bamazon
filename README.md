@@ -35,8 +35,14 @@ node bamazonManager.js
 
 # Manager Screenshots
 - Intial view of menu
-- List of items
+![Image of menu](https://github.com/tracyloveswork/bamazon/blob/master/screenshots/bamazonManager_menu.jpg)
 - Message for no items with low inventory
+![Image of menu](https://github.com/tracyloveswork/bamazon/blob/master/screenshots/bamazonManager_lowInventory_none.jpg)
 - Message for items with low inventory
+![Image of menu](https://github.com/tracyloveswork/bamazon/blob/master/screenshots/bamazonManager_lowInventory.jpg)
 - Updated Inventory
+![Image of menu](https://github.com/tracyloveswork/bamazon/blob/master/screenshots/bamazonManager_addInventory.jpg)
+- Add Product
+![Image of menu](https://github.com/tracyloveswork/bamazon/blob/master/screenshots/bamazonManager_addProduct.jpg)
 - Database with additional items
+![Image of menu](https://github.com/tracyloveswork/bamazon/blob/master/screenshots/database_addedProduct.jpg)

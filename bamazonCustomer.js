@@ -1,3 +1,4 @@
+// Dependencies
 var mysql = require("mysql");
 var inquirer = require("inquirer");
 
@@ -54,7 +55,7 @@ function makePurchase() {
     	console.log("Product ID: " + results[i].item_id + " Item: " + results[i].product_name + " Price: $" + results[i].price);
      };
      console.log("----------------------------------\n");
-    // once you have the items, prompt the user for which they'd like to bid on
+    // once you have the items, prompt the user for which product they'd like to purchase
     inquirer
       .prompt([
         {

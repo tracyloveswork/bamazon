@@ -1,8 +1,10 @@
 # bamazon
 A command line shopping app using SQL and node.js.
 # Files
-- bamazonCustomer.js | Contains script to be run with node command line
-- bamazonSchema.sql | Contains the SQL to create and populate the initial database
+- bamazonCustomer.js | Contains script to be run with node command line for customer view
+- bamazonManager.js | Contains script to be run with node command line for manager view
+- bamazonSchema.sql | Contains the SQL to create database
+- seed.sql | Contains the SQL to populate the initial database
 - package.jason | node modules to be installed
 
 # Customer View

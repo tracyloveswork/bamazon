@@ -15,7 +15,7 @@ node bamazonCustomer.js
 - If the quantity requested is greater than the stock available, the user will get a message stating the transaction cannot be completed.
 - The user is again prompted if they would like to see the product list.
 
-# Screenshots
+# Customer Screenshots
 - Initial view of database 
 ![Image of Initial State of Database](https://github.com/tracyloveswork/bamazon/blob/master/screenshots/database_initial.jpg)
 - Updated database after purchases 
@@ -24,3 +24,19 @@ node bamazonCustomer.js
 ![Image of Successful Purchase](https://github.com/tracyloveswork/bamazon/blob/master/screenshots/bamazon_successfulPurchase.jpg)
 - Quantity not available at command line 
 ![Image of Quantity Not Available](https://github.com/tracyloveswork/bamazon/blob/master/screenshots/bamazon_quantityNotAvailable.jpg)
+
+# Manager View
+node bamazonManager.js
+- User is presented with a menu of possible actions: View Products for Sale | View Low Inventory | Add to Inventory | Add New Product
+- The first selection provides a list of all items.
+- Low inventory displays any item with a stock of less than five or will return a message if there are none with low inventory.
+- Add inventory gives back a list of items and then prompts the user for the id of the item they are updated followed by amount. The console then returns a message that it was succesfully added to the database and provide the new total stock quantity.
+- Adding a new product prompts the user for the product name, department, price and initial inventory.  The item is then added to the database and the user gets a confirmation.
+
+# Manager Screenshots
+- Intial view of menu
+- List of items
+- Message for no items with low inventory
+- Message for items with low inventory
+- Updated Inventory
+- Database with additional items
